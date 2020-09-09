@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+html, body {
+  font-size: 14px;
+  font-family: 'Source sans Pro', sans-serif;
+  line-height: 18px;
+  scroll-behavior: smooth; }
+
+.template {
+  width: 960px;
+  margin: 0 auto; }
+
+.clear {
+  overflow: hidden; }
+
+.list-unstyled {
+  list-style-type: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.rounded {
+  border-radius: 50%; }
+
+.d-inline-block {
+  display: inline-block; }
+
+.d-none {
+  display: none; }
+
+h2 {
+  font-size: 30px;
+  padding: 10px 0; }
+
+.mx {
+  padding: 0.7em 0.7em; }
+
+.p {
+  padding: 0.7em; }
+
+.py {
+  padding: 1.2em 1em; }
+
+.px {
+  padding: 0 1.2em; }
+
+.pb {
+  padding-bottom: 0.3em; }
+
+.pt {
+  padding-top: 1.2em; }
+
+#header-section {
+  background: #CA932F; }
+  #header-section .logo {
+    width: 50%; }
+  #header-section .logo img {
+    padding: 0 15px; }
+  #header-section .title-section {
+    color: white;
+    position: relative;
+    top: -2em; }
+  #header-section h2 {
+    font-size: 30px;
+    padding: 10px 0;
+    text-shadow: 1px 1px 2px blue; }
+  #header-section p {
+    padding: 10px 0; }
+  #header-section .social {
+    margin-right: 1em; }
+  #header-section .linking img {
+    background: #A56E0A;
+    padding: 2px;
+    margin: 7px 3px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    float: right;
+    display: block;
+    color: #A56E0A; }
+  #header-section .search-area {
+    width: 100%; }
+  #header-section .form-input {
+    padding: 0.3em 0.1em;
+    border: 1px solid #A56E0A;
+    font-size: 1.5em;
+    border-radius: 5px; }
+  #header-section .bg-search {
+    background: #FFE07C;
+    color: #A56E0A; }
+  #header-section .bg-submit {
+    background: #DE9920; }
+  #header-section .bg-submit:hover {
+    background: #B7801C; }
+
+#navigation .navbar-nav {
+  background: #E6AF4B;
+  display: block;
+  height: 46px; }
+
+#navigation .nav-item {
+  float: left;
+  border-rigth: 1px solid blue; }
+
+#navigation .nav-link {
+  text-decoration: none;
+  padding: 1em 1.5em;
+  display: block;
+  text-align: center;
+  color: white; }
+
+#navigation .nav-link:hover {
+  background: white;
+  transition: all .5s ease;
+  color: black !important; }
+
+#navigation #active {
+  background: #ddd;
+  color: #000 !important; }
+
+#content-section .main-content {
+  width: 620px; }
+
+#content-section .content-border {
+  background: #FEF4E5;
+  border: 1px solid #B7801C; }
+
+#content-section .post-heading {
+  font-size: 25px;
+  color: #C07511; }
+
+#content-section .ab-admin {
+  font-size: 13px;
+  padding: 5px 0; }
+
+#content-section .post-img {
+  width: 200px;
+  height: 110px;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #EBB450;
+  margin-right: .8em; }
+
+#content-section .border-bottom {
+  border-bottom: 1px solid #E0D6C7; }
+
+#content-section .para {
+  font-size: 17px;
+  text-align: justify;
+  text-justify: inner-word;
+  word-wrap: break-word;
+  word-break: keep-all;
+  line-height: 23px; }
+
+#content-section .btn-outline-red {
+  background: #FFFFFF;
+  color: #E18FAF;
+  border: 1px solid red;
+  display: block;
+  padding: 7px 10px;
+  font-size: 15px;
+  margin: 10px auto;
+  text-decoration: none;
+  border-radius: 5px;
+  user-select: none; }
+
+#content-section .btn-outline-red:hover {
+  color: white;
+  background: #C07511; }
+
+#content-section .sidebar {
+  width: 300px; }
+
+#content-section .cat-item {
+  border-bottom: 1px dashed #E6AF4B;
+  padding: 6px 5px; }
+
+#content-section .cat-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: red; }
+
+#content-section .cat-link:hover {
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFE07C; }
+
+#content-section .sidebar-img {
+  width: 65px;
+  height: 50px;
+  margin-top: 5px;
+  border: 1px solid red;
+  padding: 2px;
+  border-radius: 30px;
+  margin-right: 0.6em;
+  text-align: justify;
+  font-size: 18px; }
+
+#content-section .samesidebar {
+  margin: 5px;
+  padding: 3px; }
+
+#content-section .sidebar-heading {
+  background: #E6AF4B;
+  color: black;
+  padding: 10px;
+  border-bottom: 2px solid #B7801C;
+  font-size: 22px; }
+
+#content-section .sidebar-post-heading {
+  border-bottom: 1px dashed #B7801C;
+  font-size: 20px;
+  font-weight: normal; }
+
+/*==================CLip masking ===============*/
+.clip-img {
+  width: 100%; }
+
+.circle {
+  width: 100%; }
+
+.circle:hover {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+
+.clip-animation {
+  clip-path: polygon(100% 50%, 84.70057% 54.56842%, 91.05185% 60.99981%, 82.33578% 63.39392%, 93.30127% 75%, 77.76737% 71.30665%, 80.05204% 80.05204%, 71.30665% 77.76737%, 75% 93.30127%, 63.39392% 82.33578%, 60.99981% 91.05185%, 54.56842% 84.70057%, 50% 100%, 45.43158% 84.70057%, 39.00019% 91.05185%, 36.60608% 82.33578%, 25% 93.30127%, 28.69335% 77.76737%, 19.94796% 80.05204%, 22.23263% 71.30665%, 6.69873% 75%, 17.66422% 63.39392%, 8.94815% 60.99981%, 15.29943% 54.56842%, 0% 50%, 15.29943% 45.43158%, 8.94815% 39.00019%, 17.66422% 36.60608%, 6.69873% 25%, 22.23263% 28.69335%, 19.94796% 19.94796%, 28.69335% 22.23263%, 25% 6.69873%, 36.60608% 17.66422%, 39.00019% 8.94815%, 45.43158% 15.29943%, 50% 0%, 54.56842% 15.29943%, 60.99981% 8.94815%, 63.39392% 17.66422%, 75% 6.69873%, 71.30665% 22.23263%, 80.05204% 19.94796%, 77.76737% 28.69335%, 93.30127% 25%, 82.33578% 36.60608%, 91.05185% 39.00019%, 84.70057% 45.43158%); }
+
+.clip-animation {
+  animation: clip 1s infinite; }
+
+@keyframes clip {
+  0% {
+    clip-path: polygon(100% 50%, 84.70057% 54.56842%, 91.05185% 60.99981%, 82.33578% 63.39392%, 93.30127% 75%, 77.76737% 71.30665%, 80.05204% 80.05204%, 71.30665% 77.76737%, 75% 93.30127%, 63.39392% 82.33578%, 60.99981% 91.05185%, 54.56842% 84.70057%, 50% 100%, 45.43158% 84.70057%, 39.00019% 91.05185%, 36.60608% 82.33578%, 25% 93.30127%, 28.69335% 77.76737%, 19.94796% 80.05204%, 22.23263% 71.30665%, 6.69873% 75%, 17.66422% 63.39392%, 8.94815% 60.99981%, 15.29943% 54.56842%, 0% 50%, 15.29943% 45.43158%, 8.94815% 39.00019%, 17.66422% 36.60608%, 6.69873% 25%, 22.23263% 28.69335%, 19.94796% 19.94796%, 28.69335% 22.23263%, 25% 6.69873%, 36.60608% 17.66422%, 39.00019% 8.94815%, 45.43158% 15.29943%, 50% 0%, 54.56842% 15.29943%, 60.99981% 8.94815%, 63.39392% 17.66422%, 75% 6.69873%, 71.30665% 22.23263%, 80.05204% 19.94796%, 77.76737% 28.69335%, 93.30127% 25%, 82.33578% 36.60608%, 91.05185% 39.00019%, 84.70057% 45.43158%); }
+  50% {
+    clip-path: polygon(84.70057% 54.56842%, 91.05185% 60.99981%, 82.33578% 63.39392%, 93.30127% 75%, 77.76737% 71.30665%, 80.05204% 80.05204%, 71.30665% 77.76737%, 75% 93.30127%, 63.39392% 82.33578%, 60.99981% 91.05185%, 54.56842% 84.70057%, 50% 100%, 45.43158% 84.70057%, 39.00019% 91.05185%, 36.60608% 82.33578%, 25% 93.30127%, 28.69335% 77.76737%, 19.94796% 80.05204%, 22.23263% 71.30665%, 6.69873% 75%, 17.66422% 63.39392%, 8.94815% 60.99981%, 15.29943% 54.56842%, 0% 50%, 15.29943% 45.43158%, 8.94815% 39.00019%, 17.66422% 36.60608%, 6.69873% 25%, 22.23263% 28.69335%, 19.94796% 19.94796%, 28.69335% 22.23263%, 25% 6.69873%, 36.60608% 17.66422%, 39.00019% 8.94815%, 45.43158% 15.29943%, 50% 0%, 54.56842% 15.29943%, 60.99981% 8.94815%, 63.39392% 17.66422%, 75% 6.69873%, 71.30665% 22.23263%, 80.05204% 19.94796%, 77.76737% 28.69335%, 93.30127% 25%, 82.33578% 36.60608%, 91.05185% 39.00019%, 84.70057% 45.43158%, 100% 50%); }
+  100% {
+    clip-path: polygon(91.05185% 60.99981%, 82.33578% 63.39392%, 93.30127% 75%, 77.76737% 71.30665%, 80.05204% 80.05204%, 71.30665% 77.76737%, 75% 93.30127%, 63.39392% 82.33578%, 60.99981% 91.05185%, 54.56842% 84.70057%, 50% 100%, 45.43158% 84.70057%, 39.00019% 91.05185%, 36.60608% 82.33578%, 25% 93.30127%, 28.69335% 77.76737%, 19.94796% 80.05204%, 22.23263% 71.30665%, 6.69873% 75%, 17.66422% 63.39392%, 8.94815% 60.99981%, 15.29943% 54.56842%, 0% 50%, 15.29943% 45.43158%, 8.94815% 39.00019%, 17.66422% 36.60608%, 6.69873% 25%, 22.23263% 28.69335%, 19.94796% 19.94796%, 28.69335% 22.23263%, 25% 6.69873%, 36.60608% 17.66422%, 39.00019% 8.94815%, 45.43158% 15.29943%, 50% 0%, 54.56842% 15.29943%, 60.99981% 8.94815%, 63.39392% 17.66422%, 75% 6.69873%, 71.30665% 22.23263%, 80.05204% 19.94796%, 77.76737% 28.69335%, 93.30127% 25%, 82.33578% 36.60608%, 91.05185% 39.00019%, 84.70057% 45.43158%, 100% 50%, 84.70057% 54.56842%); } }
+
+/*==============footer section ==========*/
+#footer-section {
+  background: #CA932F;
+  margin-top: 5px; }
+  #footer-section .footer-menu {
+    text-align: center;
+    padding: 10px 0; }
+  #footer-section .list-m {
+    display: inline-block;
+    padding: 15px 0; }
+  #footer-section .list-l {
+    text-decoration: none;
+    background: #E6AF4B;
+    padding: 10px 15px; }

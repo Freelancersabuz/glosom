@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Website</title>
+    <meta name="author" content="Basic Website design html,css js">
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="header-section" class=" template clear">
+        <div class="logo left">
+            <img src="images/logo.png" alt="Logo">
+            <div class="title-section d-inline-block">
+                <h2 class="">Website title</h2>
+                <p class="">making smart yours</p>
+            </div>
+        </div>
+        <div class="social right">
+            <div class="linking clear">
+                <a href="http://www.facebook.com"><img src="images/so-img/facebook.png" alt="facebook" class="d-inline-block"></a>
+                <a href="http://www.twitter.com"><img src="images/so-img/twitter.png" alt="facebook" class="d-inline-block"></a>
+                <a href="http://www.linkedin.com"><img src="images/so-img/linkedin.png" alt="facebook" class="d-inline-block"></a>
+                <a href="http://www.google-plus.com"><img src="images/so-img/google.png" alt="facebook" class="d-inline-block"></a>
+            </div>
+            <div class="search-area clear">
+                <form action="" method="POST">
+                    <input type="text" class="form-input bg-search" placeholder="Search Here" name="search">
+                    <input type="submit" class="form-input bg-submit" value="Search">
+                </form>
+            </div>
+        </div>
+    </div>
+    <section id="navigation">
+        <div class="template clear">
+            <div class="navbar-nav">
+                <ul class="list-unstyled">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li id="active" class="nav-item"><a href="clipmasking.html" class="nav-link">Clip Mask</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- content-section -->
+    <section id="content-section" class="template clear">
+        <div class="main-content mx left content-border">
+            <style>
+                .hovercliping {
+                    width: 100%;
+                    height: auto;
+                    transition: 0.9s;
+                    clip-path: circle(200px at 300px 200px);
+
+                }
+                 .hovercliping:hover{
+                    width: 100%;
+                    height: auto;
+                    clip-path: circle(100% at 0 0);
+                    
+
+                }
+
+ .text-indent {
+    text-indent: 20%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+    white-space: nowrap;
+                 }
+
+
+#top-left, #middle, #bottom-right {
+
+}
+#top-left {
+
+}
+
+
+#middle {
+
+}
+
+#bottom-right {
+
+}  
+      
+
+#myDIV {
+  width:100%;
+  height: 300px;
+  background: red;
+  z-index: -1;
+  animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+
+          from {background:url(images/watch-2.jpg);
+        background-size: cover;
+          }
+          to {display: none;transition: 0.5s;}
+}
+
+
+            </style>
+            <div id="myDIV"></div>
+            <p class="text-indent">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+
+            <img class="hovercliping" src="images/watch-1.jpg" alt="">
+        </div>
+        <div class="sidebar content-border right clear">
+            <div class="samesidebar clear">
+                <h2 class="sidebar-heading border-bottom">Category</h2>
+                <ul class="list-unstyled">
+                    <a href="#" class="cat-link">
+                        <li class="cat-item">Accessory</li>
+                    </a>
+                    <a href="#" class="cat-link">
+                        <li class="cat-item">Accessory</li>
+                    </a>
+                    <a href="#" class="cat-link">
+                        <li class="cat-item">Jwellery</li>
+                    </a>
+                    <a href="#" class="cat-link">
+                        <li class="cat-item">Jwellery</li>
+                    </a>
+                    <a href="#" class="cat-link">
+                        <li class="cat-item">Fashon</li>
+                    </a>
+                    <a href="#" class="cat-link">
+                        <li class="cat-item">Watch</li>
+                    </a>
+                    <a href="#" class="cat-link">
+                        <li class="cat-item">Watch</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="samesidebar">
+                <div class="">
+                    <h2 class="sidebar-heading border-bottom">Latest Articles</h2>
+                    <div class="">
+                        <h2 class="sidebar-post-heading border-bottom-dotted">Lorem ipsum dolor sit amet.</h2>
+                        <img src="images/post1.jpg" alt="" class="sidebar-img left rounded">
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptates.</p>
+                    </div>
+                </div>
+                <div class="">
+                    <h2 class="sidebar-post-heading border-bottom-dotted">Lorem ipsum dolor sit amet.</h2>
+                    <img src="images/post1.jpg" alt="" class="sidebar-img left rounded">
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptates.</p>
+                </div>
+                <div class="">
+                    <h2 class="sidebar-post-heading border-bottom-dotted">Lorem ipsum dolor sit amet.</h2>
+                    <img src="images/post1.jpg" alt="" class="sidebar-img left rounded">
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptates.</p>
+                </div>
+                <div class="">
+                    <h2 class="sidebar-post-heading border-bottom-dotted">Lorem ipsum dolor sit amet.</h2>
+                    <img src="images/post1.jpg" alt="" class="sidebar-img left rounded">
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <!-- footer-section -->
+    <section id="footer-section" class="template clear">
+        <div class="footer-menu">
+            <ul class="list-unstyled">
+                <li class="list-m"><a href="#" class="list-l">Home</a></li>
+                <li class="list-m"><a href="#" class="list-l">About</a></li>
+                <li class="list-m"><a href="#" class="list-l">Contact</a></li>
+                <li class="list-m"><a href="#" class="list-l">Privacy</a></li>
+            </ul>
+            <div class="copy">
+                <p>&copy; All right reserved by Blog.com</p>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+            effect: 'random',
+            slices: 10,
+            animSpeed: 500,
+            pauseTime: 2200,
+            startSlide: 0, //Set starting Slide (0 index)
+            directionNav: false,
+            directionNavHide: false, //Only show on hover
+            controlNav: false, //1,2,3...
+            controlNavThumbs: false, //Use thumbnails for Control Nav
+            pauseOnHover: true, //Stop animation while hovering
+            manualAdvance: false, //Force manual transitions
+            captionOpacity: 0.8, //Universal caption opacity
+            beforeChange: function() {},
+            afterChange: function() {},
+            slideshowEnd: function() {} //Triggers after all slides have been shown
+        });
+    });
+    </script>
+</body>
+
+</html>
